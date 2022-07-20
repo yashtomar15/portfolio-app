@@ -35,6 +35,7 @@
     width: 1000px;
     justify-content: center;
     gap: 40px;
+    color:white;
     margin-top: 5rem;
   }
   .pr_child{
@@ -101,12 +102,13 @@
   width: 100%;
   padding: 8px;
   text-align: center;
+  color:white;
     }
     .grid_project{
   grid-template-columns: repeat(1, 1fr);
   width: 300px;
   
-  
+  color:white
     }
   
   }
@@ -116,10 +118,12 @@
   width: 100%;
   padding: 8px;
   text-align: center;
+  color:white
     }
     .grid_project{
   grid-template-columns: repeat(2, 1fr);
   width: 90%;
+  color:white;
     }
   .pr_child{
     height: 430px;

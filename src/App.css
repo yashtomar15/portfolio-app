@@ -1,6 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap'); */
 
-
+body{
+margin:0;
+padding:0;
+}
 :root
 {
   --yellow: #F5C32C;

@@ -229,7 +229,7 @@ left: 1%;
   display: flex;
   justify-content: center;
 flex-direction: column-reverse;
-background-color: #23155747;
+/* background-color: #23155747; */
 
 padding-bottom: 4rem;
 }
@@ -249,13 +249,13 @@ width: 270px;
 display: grid;
 margin: auto;
 }
-/* #helloName{ */
-  /* font-size: 0px; */
-  /* font-family: Ubuntu,sans-serif;
+#helloName{
+  font-size: 0px;
+  font-family: Ubuntu,sans-serif;
   font-weight: 800;
   line-height: 4000px;
-  color:blue; */
-/* } */
+  color:blue;
+}
 .i-name{
   margin: auto;
 }
@@ -274,12 +274,11 @@ margin: auto;
 }
 }
 
-@media screen and (max-width: 950px) {
+ @media screen and (max-width: 950px) {
 
   .Intro{
     width: 100%;
     justify-content: center;
-  background-color: #23155747;
   padding-bottom: 4rem;
   }
   .my_img{
@@ -304,9 +303,9 @@ margin: auto;
   .i-icons{
     margin-left: 10%;
   }
-}
+} 
 /* /*  */
-/* @media screen and (min-width: 955px) {
+/* @media screen and (min-width: 955px) { 
 
   .Intro{
     justify-content: center;
@@ -336,4 +335,4 @@ width: 100%;
   .i-icons{
     margin-left: 10%;
   }
-}  */
+}   */
