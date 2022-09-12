@@ -36,24 +36,24 @@ const Navbar = () => {
         </div>
         <div className="n-right">
           <div className="n-list">
-            <ul style={{ listStyleType: "none" }} activeClass="active">
+            <ul style={{ listStyleType: "none" }} activeclass="active">
               <li>
-                <Link to="intro" spy={true} smooth={true} className='list'>
+                <Link to="intro" spy={true} smooth={true} className='list' style={{color:darkMode ? "white" : "#242d49" }}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="services" spy={true} smooth={true} className='list'>
+                <Link to="services" spy={true} smooth={true} className='list' style={{color:darkMode ? "white" : "#242d49" }}>
                   About
                 </Link>
               </li>
               <li>
-                <Link to="portfolio" spy={true} smooth={true} className='list'>
+                <Link to="portfolio" spy={true} smooth={true} className='list' style={{color:darkMode ? "white" : "#242d49" }}>
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="works" spy={true} smooth={true} className='list' >
+                <Link to="works" spy={true} smooth={true} className='list' style={{color:darkMode ? "white" : "#242d49" }}>
                   Skills
                 </Link>
               </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
               </Link>
             </li> */}
               <li>
-                <Link to="contact" spy={true} smooth={true} className='list'>
+                <Link to="contact" spy={true} smooth={true} className='list' style={{color:darkMode ? "white" : "#242d49" }}>
                   Contact
                 </Link>
               </li>

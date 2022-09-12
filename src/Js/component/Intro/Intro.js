@@ -6,7 +6,7 @@ import LinkedIn from "../../../Media/linkedin.6892b3ae328c7a1e055f.png";
 import { themeContext } from "../../../Context";
 import Resume from '../../../Media/resume.pdf';
 import { Typewriter } from "react-simple-typewriter"
-import {Zoom} from 'react-awesome-reveal';
+import {Zoom,Fade,Flip,Roll} from 'react-awesome-reveal';
 import styles from '../../../css/component/Intro/intro.module.css';
 //import SmoothList from 'react-smooth-list';
 
@@ -22,7 +22,7 @@ const Intro = () => {
   return (
     // <SmoothList transitionDuration={2500} animated={true}>
     <div className="Intro" id="intro">
-     
+     <Zoom>
       <div className="i-left">
         <div className="i-name ">
           <span style={{ color: darkMode ? "white" : "" }}>
@@ -37,8 +37,9 @@ const Intro = () => {
           <span className="animate-charcter name">Yash Tomar</span>
           <h2 className="full_stack_h2">
             I'm a
-            <span className="full_stack">
-              <Typewriter words={[" Full Stack Developer.", " MERN Stack Developer."," FrontEnd Developer"]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+            <span className="full_stack" style={{marginLeft:'10px'}}>
+               Full Stack Developer.
+              {/* <Typewriter words={[" Full Stack Developer.", " MERN Stack Developer."," FrontEnd Developer"]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} /> */}
             </span>
           </h2>
         </div>
@@ -56,8 +57,9 @@ const Intro = () => {
           </a>
         </div>
       </div>
+      </Zoom>
     
-      <div className="i-right">
+      <div className="i-right" style={{marginLeft:'245px'}}>
         <Zoom>
         <img src={me} alt="me" className="my_img" />
         </Zoom>

@@ -32,7 +32,7 @@ const Services = () => {
         <div className="awesome">
           <ul className='about_article'>
             <li>
-              Hello! My name Yash Tomar and I enjoy creating things that live on the internet.
+              Hello! My name is Yash Tomar and I enjoy creating things that live on the internet.
             </li>
             <br />
             <li>I'm a passionate Developer, with strong administrative and communication skills, good attention to
@@ -44,7 +44,7 @@ const Services = () => {
             <li>As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
               discovering new things every day.</li>
             <br />
-            <li>Fast Forwarding to today, I built a number of web applications and 4 major projects.
+            <li>Fast Forwarding to today, I built a number of web applications and 3 major projects.
               Learned a great deal about teamwork, leadership, and
               communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.</li>
             <br />

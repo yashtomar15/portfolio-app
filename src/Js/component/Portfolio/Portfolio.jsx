@@ -21,7 +21,6 @@ const Portfolio = () => {
 {
   projectData.map((item, index)=>(
     <div className="pr_child" key={index}>
-
 <img src={process.env.PUBLIC_URL+`${item.img_url}`} alt="a" className="project_img" />
 <h3 className="pr_title">{item.name}</h3>
 <p className="pr_desc desc">{item.descp}</p>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@800&family=Ubuntu:wght@800&display=swap');
+
 .Nav-main{
     width: 100%;
   }
@@ -24,6 +27,7 @@
     justify-content: left;
     display: flex;
     gap: 2rem;
+    font-family: "Ubuntu";
   }
   
   .n-name {
@@ -36,8 +40,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-weight: 400;
-    
+    /* font-weight: 700; */
+    /* font-family: "space Grotesk"; */
+    /* color:#242d49; */
+    font-family: "Ubuntu";
   }
   
   .n-list {
