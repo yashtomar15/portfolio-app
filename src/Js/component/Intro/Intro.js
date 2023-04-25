@@ -60,7 +60,7 @@ const Intro = () => {
       </div>
       </Zoom>
     
-      <div className="i-right" style={{marginLeft:'245px'}}>
+      <div className="i-right" style={{}}>
         <Zoom>
         <img src={me} alt="me" className="my_img" />
         </Zoom>
