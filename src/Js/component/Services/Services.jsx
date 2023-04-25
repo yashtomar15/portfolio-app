@@ -35,18 +35,17 @@ const Services = () => {
               Hello! My name is Yash Tomar and I enjoy creating things that live on the internet.
             </li>
             <br />
-            <li>I'm a passionate Developer, with strong administrative and communication skills, good attention to
+            <li>I'm a passionate full stack Developer, with strong administrative and communication skills, good attention to
               detail and the ability to write efficient code using MERN Stack.</li>
             <br />
-            <li>My interest in web development started back last year when I was trying to edit things on the web,
+            <li>My interest in web development started when I was trying to edit things on the web,
               that taught me a lot about HTML & CSS.</li>
             <br />
             <li>As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
               discovering new things every day.</li>
             <br />
-            <li>Fast Forwarding to today, I built a number of web applications and 3 major projects.
-              Learned a great deal about teamwork, leadership, and
-              communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.</li>
+            <li>Fast Forwarding to today, I built numerous websites that live on the internet.
+              It is always a exiting a enjoing process for me and i learnt a lot by building the projects.</li>
             <br />
 
           </ul>

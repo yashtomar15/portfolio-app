@@ -61,11 +61,11 @@ const Contact = () => {
 
 
   <div className="con_img">
-    <a href='https://www.linkedin.com/in/yashtomar15/'
+    {/* <a href='https://www.linkedin.com/in/yashtomar15/'
      target="_blank" rel="noopener noreferrer" className="linkdin">
       <BsLinkedin/>
-      <p>LinkedIn</p>
-    </a>
+      <p>Instagram</p>
+    </a> */}
     <a href='https://github.com/yashtomar15' target="_blank" rel="noopener noreferrer" className="git_con">
 
       <BsGithub/>

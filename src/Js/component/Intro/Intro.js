@@ -3,6 +3,7 @@ import "../../../css/component/Intro/Intro.css";
 import me from "../../../Media/myimage.jpg";
 import Github from "../../../Media/github.a855c3975c028d8069f5.png";
 import LinkedIn from "../../../Media/linkedin.6892b3ae328c7a1e055f.png";
+import Instagram from "../../../Media/Instagram-Icon.png";
 import { themeContext } from "../../../Context";
 import Resume from '../../../Media/resume.pdf';
 import { Typewriter } from "react-simple-typewriter"
@@ -44,16 +45,16 @@ const Intro = () => {
           </h2>
         </div>
 
-        <a href="https://drive.google.com/file/d/1rR5hh3zQdMS_p0iFDbPkZKHwkfEiZIiz/view?usp=sharing"  target={"_blank"} className="resum">
+        {/* <a href="#"  target={"_blank"} className="resum">
           <button className="resume">Resume</button>
-        </a>
+        </a> */}
 
         <div className="i-icons">
           <a href="https://github.com/yashtomar15" target="_blank" rel="noopener noreferrer">
             <img src={Github} alt="github" />
           </a>
-          <a href="https://www.linkedin.com/in/yashtomar15" target="_blank" rel="noopener noreferrer">
-            <img src={LinkedIn} alt="linkdin" />
+          <a href="https://www.instagram.com/yashxdev/" target="_blank" rel="noopener noreferrer">
+            <img src={Instagram} alt="linkdin" />
           </a>
         </div>
       </div>
