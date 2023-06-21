@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "../../../css/component/Intro/Intro.css";
-import me from "../../../Media/myimage.jpg";
+import me from "../../../Media/yash-image.jpg";
 import Github from "../../../Media/github.a855c3975c028d8069f5.png";
 import LinkedIn from "../../../Media/linkedin.6892b3ae328c7a1e055f.png";
 import Instagram from "../../../Media/Instagram-Icon.png";
@@ -22,7 +22,7 @@ const Intro = () => {
 
   return (
     // <SmoothList transitionDuration={2500} animated={true}>
-    <div className="Intro" id="intro">
+    <div className="Intro" id="intro" style={{alignItems:'center'}}>
      <Zoom>
       <div className="i-left">
         <div className="i-name ">

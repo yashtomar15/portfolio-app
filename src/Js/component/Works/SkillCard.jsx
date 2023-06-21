@@ -9,7 +9,7 @@ const SkillCard = () => {
     <div className='grid'>
        {
            skill.map(( item, index)=>(
-               <div key={index} className='skill_child'>
+               <div key={index} className='skill_child' style={{backgroundColor:'inherit'}} >
 <img src={item.img} alt="a" className='grid_img'/>
 <p className='skillNames'>{item.title}</p>
                    </div>
